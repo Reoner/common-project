@@ -1,0 +1,146 @@
+.beautystyle {
+    background: #FFFFFF;
+
+    &_container {
+        // width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        gap: 174px;
+        margin-bottom: 221px;
+
+        &_baground {
+            margin-top: 324px;
+            margin-left: 146px;
+            width: 0;
+            height: 0;
+            border-bottom: 432px solid #F8EEEF;
+            border-left: 581px solid transparent;
+            border-left: 388px solid transparent;
+            position: fixed;
+
+        }
+
+        &_image {
+            width: 388px;
+            height: 432px;
+            border-radius: 4px;
+            margin-top: 324px;
+            margin-left: 146px;
+            position: relative;
+            background: linear-gradient(to bottom right, #FFFFFF 50%, #F8EEEF 50%);
+
+            & img {
+                position: absolute;
+                bottom: 50px;
+                right: 49px;
+            }
+        }
+
+        &_contant {
+            margin-top: 222px;
+
+            & h2 {
+                width: 522px;
+                color: #191018;
+                font-family: 'Nunito';
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 65px;
+                text-transform: capitalize;
+                margin-bottom: 16px;
+            }
+
+            & p {
+                width: 597px;
+                color: #191018;
+                font-family: 'Nunito Sans';
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 33px;
+                margin-bottom: 48px;
+                text-transform: lowercase;
+                letter-spacing: 0.06em;
+
+            }
+
+            &_button {
+                display: flex;
+                gap: 36px;
+                margin-bottom: 64px;
+
+                &_1 {
+                    width: 223px;
+                    height: 65px;
+                    border-radius: 18px;
+                    background: #FFFFFF;
+                    color: #FB3F5C;
+                    border: 1px solid #FB3F5C;
+                    font-family: 'Nunito Sans';
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 27px;
+
+                    &:hover {
+                        cursor: pointer;
+                        background: #FB3F5C;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            &_meaning {
+                width: 606px;
+                height: 106px;
+                display: grid;
+                grid-template: 45px 45px / 272px 272px;
+                column-gap: 69px;
+                row-gap: 21px;
+
+                &_progress {
+                    width: 272px;
+                    position: relative;
+                }
+            }
+        }
+    }
+}
+
+img.image {
+    margin-right: 12px;
+    background-color: #191018;
+}
+
+.span1 {
+    position: absolute;
+    bottom: 15px;
+    right: 69px;
+}
+
+.span2 {
+    position: absolute;
+    bottom: 15px;
+    right: 112px;
+}
+
+.span3 {
+    position: absolute;
+    bottom: 15px;
+    right: 50px;
+}
+
+progress {
+    border-radius: 0;
+    border: 0;
+    width: 210px;
+    height: 8px;
+    background: #FB3F5C;
+}
+
+progress::-webkit-progress-bar {
+    background: #C4C4C4;
+
+}
+
+progress::-webkit-progress-value {
+    background: #FB3F5C;
+}

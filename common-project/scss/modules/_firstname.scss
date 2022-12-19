@@ -1,0 +1,106 @@
+.firstname {
+    font-family: 'Nunito Sans' sans-serif;
+    position: relative;
+    &-main {
+
+        padding: 150px 0;
+        justify-content: space-between;
+        // max-width: 1442px;
+        align-items: center;
+        // height: 720px;
+        // padding: 100px 1px 0px 125px;
+        display: flex;
+        // gap: 214px;
+
+        &-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &-hello {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 38px;
+                color: #000000;
+                width: 74px;
+                font-family: 'Nunito Sans';
+            }
+
+            &-header {
+                font-family: 'Nunito Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 68px;
+                text-transform: capitalize;
+                color: var(--color-black);
+                width: 454px;
+
+                &-color {
+                    color: var(--color-primary);
+                }
+            }
+
+            &-text {
+                font-family: 'Nunito Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 33px;
+                letter-spacing: 0.06em;
+                text-transform: lowercase;
+                color: var(--color-black);
+                margin-bottom: 16px;
+                width: 481px;
+            }
+
+            &-button {
+                cursor: pointer;
+                width: 223px;
+                height: 65px;
+                background: var(--color-primary);
+                border-radius: 18px;
+                font-family: 'Nunito Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                justify-content: center;
+                align-items: center;
+                color: #F8EEEF;
+                border: none;
+            }
+        }
+
+        &-photo {
+            // padding: 64px 162px 87px 27px;
+            // background-image: linear-gradient(to bottom right, rgba(251, 63, 92, 0.5) 50%);
+            // background: linear-gradient(to right, green 50%, red 50%);
+            // position: absolute;
+            
+            // &-size {
+            //     position: absolute;
+            //     width: 432px;
+            //     height: 541px;
+            // }
+            &::after{
+                content: '';
+                // width: 621px;
+                // height: 692px;
+                position: absolute;
+                // right: -550px;
+                // bottom: -190px;
+                top: 50px;
+                z-index: -1;
+                width: 0;
+                right: 0;
+                height: 0;
+                border-bottom: 750px solid rgba(251, 63, 92, 0.5);
+                border-left: 800px solid transparent;
+                // background: linear-gradient(to bottom right, transparent 50%, rgba(251, 63, 92, 0.5) 50%);
+            }   
+        }
+        
+    }
+}

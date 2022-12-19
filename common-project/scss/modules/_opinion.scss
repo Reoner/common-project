@@ -1,0 +1,88 @@
+.opinion {
+    height: 600px;
+    background: rgba(251, 63, 92, 0.3);
+    padding: 86px;
+
+    &-container {
+        width: 726px;
+        height: 400px;
+        background: #FFFFFF;
+        box-shadow: 0px 54px 104px rgba(0, 0, 0, 0.04);
+        border-radius: 140px 0px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+
+        &-inside {
+            padding: 52px 57px 52px 57px;
+        }
+    }
+
+    &-image {
+        display: flex;
+        gap: 140px;
+        margin-bottom: 20px;
+
+        &-skobka {
+            width: 110px;
+            height: 86px;
+        }
+    }
+
+    &-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+
+    &-happy {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #FE2C54;
+        margin-bottom: 20px;
+    }
+
+    &-subtitle {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #5D616F;
+        margin-bottom: 12px;
+    }
+
+    &-vector {
+        text-align: center;
+    }
+
+    &-ellipse {
+        display: flex;
+        width: 50px;
+        height: 10px;
+        margin-left: 800px;
+        margin-top: 41px;
+        gap: 10px;
+
+
+        &-small {
+            width: 10px;
+            height: 10px;
+            background: #F2F2F2;
+            border-radius: 50%;
+
+            &:hover {
+                background: #333333;
+            }
+        }
+    }
+}
