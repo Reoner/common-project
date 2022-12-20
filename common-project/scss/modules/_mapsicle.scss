@@ -1,0 +1,89 @@
+.mapsicle {
+    background: white;
+
+    &-container {
+        padding: 99px 130px 161px 0;
+        display: flex;
+        width: 523px;
+        flex-wrap: wrap;
+        
+    }
+
+    &-title {
+        text-align: center;
+        margin-bottom: 81px;
+        font-family: 'Nunito sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 42px;
+        color: #191018;
+    }
+
+    &-email {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 13px 310px 13px 14px;
+        font-family: 'Nunito Sans';
+        opacity: 0.6;
+        margin-bottom: 33px;
+
+        &-title {
+            font-family: 'Nunito Sans';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #071A58;
+            margin-bottom: 7px;
+        }
+    }
+
+    &-subject {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 13px 310px 13px 14px;
+        font-family: 'Nunito Sans';
+        margin-bottom: 56px;
+
+        &-title {
+            font-family: 'Nunito Sans' ;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            color: #071A58;
+            margin-bottom: 7px;
+        }
+    }
+
+    &-message {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 17px 291px 135px 14px;
+        font-family: 'Nunito Sans';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #071A58;
+        opacity: 0.6;
+        margin-bottom: 40px;
+    }
+
+    &-button {
+        background: #FB3F5C;
+        border-radius: 18px;
+        border: none;
+        font-family: 'Nunito Sans';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #F8EEEF;
+        padding: 19px 88px 19px 88px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #f51335;
+        }
+    }
+
+    &-map {
+        position: absolute;
+        right: 350px;
+    }
+}

@@ -693,6 +693,7 @@ h3 {
   height: 600px;
   background: rgba(251, 63, 92, 0.3);
   padding: 86px;
+  margin-bottom: 99px;
 }
 .opinion-container {
   width: 726px;
@@ -764,4 +765,83 @@ h3 {
 }
 .opinion-ellipse-small:hover {
   background: #333333;
+}
+
+.mapsicle {
+  background: white;
+}
+.mapsicle-container {
+  padding: 99px 130px 161px 0;
+  display: flex;
+  width: 523px;
+  flex-wrap: wrap;
+}
+.mapsicle-title {
+  text-align: center;
+  margin-bottom: 81px;
+  font-family: "Nunito sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 42px;
+  color: #191018;
+}
+.mapsicle-email {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 13px 310px 13px 14px;
+  font-family: "Nunito Sans";
+  opacity: 0.6;
+  margin-bottom: 33px;
+}
+.mapsicle-email-title {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #071A58;
+  margin-bottom: 7px;
+}
+.mapsicle-subject {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 13px 310px 13px 14px;
+  font-family: "Nunito Sans";
+  margin-bottom: 56px;
+}
+.mapsicle-subject-title {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #071A58;
+  margin-bottom: 7px;
+}
+.mapsicle-message {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 17px 291px 135px 14px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #071A58;
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+.mapsicle-button {
+  background: #FB3F5C;
+  border-radius: 18px;
+  border: none;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #F8EEEF;
+  padding: 19px 88px 19px 88px;
+  cursor: pointer;
+}
+.mapsicle-button:hover {
+  background-color: #f51335;
+}
+.mapsicle-map {
+  position: absolute;
+  right: 350px;
 }/*# sourceMappingURL=style.css.map */
