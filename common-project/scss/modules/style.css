@@ -879,6 +879,9 @@ h6 {
   gap: 30px;
   justify-content: center;
 }
+.footer-menu-text:hover {
+  transform: scale(0.9);
+}
 .footer-img-phone {
   width: 23px;
   height: 23px;

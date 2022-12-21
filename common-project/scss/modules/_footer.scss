@@ -6,14 +6,11 @@ h6 {
     line-height: 33px;
     text-transform: lowercase;
     color: #F8EEEF;
-   
-  
 }
 
 .footer {
     height: 232px;
     background: rgba(251, 63, 92, 0.9);
-    
 
     &-menu {
         width: 1047px;
@@ -27,13 +24,20 @@ h6 {
         &-line {
             border: 2px solid #F8EEEF;
             height: 35px;
-            
         }
 
         &-bottom {
             display: flex;
             gap: 30px;
             justify-content: center;
+        }
+
+        &-text {
+            &:hover {
+                -webkit-transform: scale(0.9);
+                -ms-transform: scale(0.9);
+                transform: scale(0.9);
+            }
         }
     }
 
@@ -50,11 +54,13 @@ h6 {
     &-vector {
         width: 24px;
         height: 22px;
+
         &:hover {
             -webkit-transform: scale(1.5);
             -ms-transform: scale(1.5);
             transform: scale(1.5);
         }
+
         &-large {
             width: 34px;
             height: 22px;
@@ -66,5 +72,4 @@ h6 {
             }
         }
     }
-
 }
