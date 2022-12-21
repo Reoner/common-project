@@ -775,6 +775,7 @@ h3 {
   display: flex;
   width: 523px;
   flex-wrap: wrap;
+  margin-bottom: 161px;
 }
 .mapsicle-title {
   text-align: center;
@@ -844,4 +845,59 @@ h3 {
 .mapsicle-map {
   position: absolute;
   right: 350px;
+}
+
+h6 {
+  font-family: "Nunito sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: lowercase;
+  color: #F8EEEF;
+}
+
+.footer {
+  height: 232px;
+  background: rgba(251, 63, 92, 0.9);
+}
+.footer-menu {
+  width: 1047px;
+  max-height: 41px;
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+  align-items: center;
+  padding: 70px 54px 37px;
+}
+.footer-menu-line {
+  border: 2px solid #F8EEEF;
+  height: 35px;
+}
+.footer-menu-bottom {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.footer-img-phone {
+  width: 23px;
+  height: 23px;
+}
+.footer-img-mail {
+  width: 23px;
+  height: 16px;
+}
+.footer-vector {
+  width: 24px;
+  height: 22px;
+}
+.footer-vector:hover {
+  transform: scale(1.5);
+}
+.footer-vector-large {
+  width: 34px;
+  height: 22px;
+}
+.footer-vector-large:hover {
+  transform: scale(1.5);
 }/*# sourceMappingURL=style.css.map */

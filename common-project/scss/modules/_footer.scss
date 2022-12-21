@@ -1,0 +1,70 @@
+h6 {
+    font-family: 'Nunito sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: lowercase;
+    color: #F8EEEF;
+   
+  
+}
+
+.footer {
+    height: 232px;
+    background: rgba(251, 63, 92, 0.9);
+    
+
+    &-menu {
+        width: 1047px;
+        max-height: 41px;
+        display: flex;
+        justify-content: center;
+        gap: 19px;
+        align-items: center;
+        padding: 70px 54px 37px;
+
+        &-line {
+            border: 2px solid #F8EEEF;
+            height: 35px;
+            
+        }
+
+        &-bottom {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+        }
+    }
+
+    &-img-phone {
+        width: 23px;
+        height: 23px;
+    }
+
+    &-img-mail {
+        width: 23px;
+        height: 16px;
+    }
+
+    &-vector {
+        width: 24px;
+        height: 22px;
+        &:hover {
+            -webkit-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+        &-large {
+            width: 34px;
+            height: 22px;
+
+            &:hover {
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
+            }
+        }
+    }
+
+}
